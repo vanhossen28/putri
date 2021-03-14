@@ -1,0 +1,186 @@
+�й филтъра"
+   },
+   "options_dialog_predefined_title": {
+      "message": "Сигурен ли сте, че ще ползвате филтъра?"
+   },
+   "options_email": {
+      "message": "Е-поща:"
+   },
+   "options_english": {
+      "message": "английски"
+   },
+   "options_filterList_add": {
+      "message": "Добави нов филтър"
+   },
+   "options_filterList_column_name": {
+      "message": "Филтър"
+   },
+   "options_filterList_column_status": {
+      "message": "Състояние"
+   },
+   "options_filterList_column_update": {
+      "message": "Обновяване"
+   },
+   "options_filterList_description": {
+      "message": "Зад всяка настройка в Adblock Plus стои филтър. По-долу са филтрите, отговарящи за всяка от настройките на вашия Adblock Plus. Можете да добавите допълнителни филтри, създадени и поддържани от доверената ни общност."
+   },
+   "options_filterList_empty": {
+      "message": "Няма добавени филтри към Adblock Plus. Тези които добавите ще се покажат тук."
+   },
+   "options_filterList_hours": {
+      "message": "преди часа"
+   },
+   "options_filterList_lastDownload_checksumMismatch": {
+      "message": "Провалено — несъвпадаща контролна сума!"
+   },
+   "options_filterList_lastDownload_connectionError": {
+      "message": "Изтеглянето се провали"
+   },
+   "options_filterList_lastDownload_inProgress": {
+      "message": "обновяване"
+   },
+   "options_filterList_lastDownload_invalidData": {
+      "message": "Провалено — недействителен филтър!"
+   },
+   "options_filterList_lastDownload_invalidURL": {
+      "message": "Провалено — недействителен адрес!"
+   },
+   "options_filterList_lastDownload_invalidURLProtocol": {
+      "message": "Изтеглянето пропадна. URL адресът трябва да започва с $protocol$.",
+      "placeholders": {
+         "protocol": {
+            "content": "https://"
+         }
+      }
+   },
+   "options_filterList_minutes": {
+      "message": "преди минути"
+   },
+   "options_filterList_now": {
+      "message": "току-що"
+   },
+   "options_filterList_source": {
+      "message": "Източник"
+   },
+   "options_filterList_title": {
+      "message": "Филтри"
+   },
+   "options_filterList_update": {
+      "message": "обнови всички"
+   },
+   "options_filterList_updateNow": {
+      "message": "Обновяване сега"
+   },
+   "options_filterList_website": {
+      "message": "сайт"
+   },
+   "options_filter_list_rule": {
+      "message": "Правило за филтър"
+   },
+   "options_filters_search_or_add": {
+      "message": "Търсене или добавяне на филтри (например $filter$)",
+      "placeholders": {
+         "filter": {
+            "content": "/ads/track/*"
+         }
+      }
+   },
+   "options_footer_about": {
+      "message": "За Adblock Plus"
+   },
+   "options_footer_contribute": {
+      "message": "Съдействай"
+   },
+   "options_general_description": {
+      "message": "Определяне какво Adblock Plus показва и скрива в сайтовете"
+   },
+   "options_generic_error": {
+      "message": "Опа! Нещо се обърка. Опитайте пак."
+   },
+   "options_help_description": {
+      "message": "Намиране на помощ или свързване с нас"
+   },
+   "options_language_add": {
+      "message": "Добавяне на език"
+   },
+   "options_language_change": {
+      "message": "промени"
+   },
+   "options_language_description": {
+      "message": "Фина настройка в Adblock Plus �ot mesajlarının budamasını değiştir",
+      "errorWritingFile": "Dosyaya yazılırken bir hata oluştu.",
+      "result": "Mesaj kısaltma {result}"
+    },
+    "queue": {
+      "description": "Müzik listesini ve şuan çalan şarkıyı göster.",
+      "missingPermissionMessage": "Mesaj yönetimi ve reaksiyon yapılamadı izinler eksik.",
+      "errorNotQueue": "❌ **Bu sunucuda hiçbir şey oynatılmıyor**",
+      "currentPage": "Mevcut sayfa - ",
+      "embedTitle": "Şarkı listesi\n",
+      "embedCurrentSong": "**Çalan şarkı - [{title}]({url})**\n\n{info}"
+    },
+    "remove": {
+      "description": "Şarkı listeden kaldırıldı",
+      "errorNotQueue": "Bir liste yok.",
+      "usageReply": "Kullanım: {prefix}kaldır <Liste numarası>",
+      "result": "<@{author}> ❌ listeden kaldırdı **{title}**"
+    },
+    "resume": {
+      "description": "Şarkıyı devam ettir",
+      "errorNotQueue": "Hiçbir şey çalınmıyor.",
+      "resultNotPlaying": "<@{author}> ▶ şarkıyı devam ettirdi!",
+      "errorPlaying": "Liste durdurulmadı."
+    },
+    "search": {
+      "description": "Oynatmak için klip arayın ve seçin",
+      "usageReply": "Kullanım: {prefix}{name} <Video İsmi>",
+      "errorAlreadyCollector": "Bu kanalda zaten aktif bir mesaj toplayıcı var.",
+      "errorNotChannel": "Önce bir sesli kanala katılmalısınız!",
+      "resultEmbedTtile": "**Oynatmak istediğiniz şarkının numarasını yazınız**",
+      "resultEmbedDesc": "Sonuçlar: {search}"
+    },
+    "shuffle": {
+      "description": "Listeyi karıştır",
+      "errorNotQueue": "Bir liste yok.",
+      "result": "<@{author}> 🔀 listeyi karıştırdı"
+    },
+    "skip": {
+      "description": "Çalan şarkıyı atla",
+      "errorNotQueue": "Sırada başka şarkı olmadığından atlayamıyorum.",
+      "result": "<@{author}> ⏭ şarkıyı geçti"
+    },
+    "skipto": {
+      "description": "Seçili liste numarasına atla",
+      "usageReply": "Kullanım: {prefix}{name} <Liste numarası>",
+      "errorNotQueue": "Bir liste yok.",
+      "errorNotValid": "Listede sadece {length} şarkı var!",
+      "result": "<@{author}> ⏭ şarkıyı {arg} atladı"
+    },
+    "stop": {
+      "description": "Şarkıyı durdurur",
+      "errorNotQueue": "Şuan hiçbir şey çalınmıyor.",
+      "result": "<@{author}> ⏹ müziği durdurdu"
+    },
+    "uptime": {
+      "description": "Ne kadar süredir online ",
+      "result": "Online süresi: `{days} gün,{hours} saat, {minutes} dakika, {seconds} saniye`"
+    },
+    "volume": {
+      "description": "Çalan şarkının ses seviyesini değiştirin",
+      "errorNotQueue": "Şuan hiçbir şey çalınmıyor.",
+      "errorNotChannel": "Önce sesli sohbet kanalına girmelisiniz!",
+      "currentVolume": "🔊 Mevcut ses yüksekliği: **{volume}%**",
+      "errorNotNumber": "Lütfen ses seviyesini ayarlamak için sayı giriniz.",
+      "errorNotValid": "Lütfen 0-100 arasında bir sayı giriniz",
+      "result": "Ses seviyesi: **{arg}%**"
+    },
+    "common": {
+      "on": "**açık**",
+      "off": "**kapalı**",
+      "enabled": "**etkinleştirildi**",
+      "disabled": "**devre dışı bırakıldı**",
+      "errorNotChannel": "Önce sesli sohbet kanalına girmelisiniz!",
+      "cooldownMessage": "`{name}` komutunu kullanmak için {time} saniye beklemelisiniz .",
+      "errorCommend": "Komutu gerçekleştirirken bir hata oluştu."
+    }
+  }
